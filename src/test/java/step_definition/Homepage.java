@@ -16,6 +16,7 @@ public class Homepage extends Base{
 	public void i_input_data_into_search_box(Integer rowNum) {
 		String s= testData.get(rowNum).get("productname");
 		sendkeys(By.xpath("//input[@class='search-bar-input']"), s);
+		  System.out.println("Done");
 	}
 
 
@@ -51,6 +52,9 @@ public class Homepage extends Base{
 	public void i_click_save_button() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
+	   
+	    
+	   
 	}
 
 
